@@ -96,16 +96,23 @@ namespace Bookstore
 
         private void UpdateBooksListDetails()
         {
-            StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append("Books: [\r\n");
-            foreach (Book book in _books)
-            {
-                stringBuilder.Append(book.ToString());
-                stringBuilder.Append("\r\n");
-            }
-            stringBuilder.Append("]");
+            DataGridViewSelectedRowCollection selectedRow = DataGridViewBooks.SelectedRows;
 
-            TextBoxBooks.Text = stringBuilder.ToString();
+            foreach (DataGridViewRow row in selectedRow)
+            {
+                int rowIndex = row.Index;
+
+                if (rowIndex < 0)
+                {
+                    continue;
+                }
+
+                TextBoxBookTitleInfo.Text = _books[rowIndex].Title;
+                TextBoxBookAuthorInfo.Text = _books[rowIndex].Author;
+                TextBoxBookGenreInfo.Text = _books[rowIndex].Genre;
+                DateTimePickerDatePublished.Value = _books[rowIndex].DatePublished;
+                RadioButtonIsDiscount.Checked = _books[rowIndex].IsDiscount;
+            }
         }
 
         private void RefreshGridAndBookDetails()
@@ -200,6 +207,11 @@ namespace Bookstore
         private void editBookForm_UpdateBookEvent(Book updatedBook)
         {
             RefreshGridAndBookDetails();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

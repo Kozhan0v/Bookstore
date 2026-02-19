@@ -89,9 +89,9 @@
             LabelDatePublished.AutoSize = true;
             LabelDatePublished.Location = new Point(12, 218);
             LabelDatePublished.Name = "LabelDatePublished";
-            LabelDatePublished.Size = new Size(124, 20);
+            LabelDatePublished.Size = new Size(142, 20);
             LabelDatePublished.TabIndex = 4;
-            LabelDatePublished.Text = "Название книги:";
+            LabelDatePublished.Text = "Год издания книги:";
             // 
             // DateTimePickerDatePublished
             // 

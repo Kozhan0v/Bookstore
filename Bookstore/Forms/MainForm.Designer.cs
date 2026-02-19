@@ -36,7 +36,6 @@
             MenuItemDeleteBook = new ToolStripMenuItem();
             MenuItemEditBook = new ToolStripMenuItem();
             DataGridViewBooks = new DataGridView();
-            TextBoxBooks = new TextBox();
             GroupBoxAddNewBook = new GroupBox();
             TextBoxGenre = new TextBox();
             LabelGenre = new Label();
@@ -47,6 +46,16 @@
             LabelAuthor = new Label();
             TextBoxTitle = new TextBox();
             LabelTitle = new Label();
+            RadioButtonIsDiscount = new RadioButton();
+            LabelIsDiscountInfo = new Label();
+            TextBoxBookGenreInfo = new TextBox();
+            LabelBookGenreInfo = new Label();
+            DateTimePickerDatePublishedInfo = new DateTimePicker();
+            LabelBookDatePublishedInfo = new Label();
+            TextBoxBookAuthorInfo = new TextBox();
+            LabelBookAuthorInfo = new Label();
+            TextBoxBookTitleInfo = new TextBox();
+            LabelBookTitleInfo = new Label();
             ContextMenuStripForGrid.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)DataGridViewBooks).BeginInit();
             GroupBoxAddNewBook.SuspendLayout();
@@ -61,7 +70,7 @@
             ContextMenuStripForGrid.ImageScalingSize = new Size(20, 20);
             ContextMenuStripForGrid.Items.AddRange(new ToolStripItem[] { MenuItemDeleteBook, MenuItemEditBook });
             ContextMenuStripForGrid.Name = "ContextMenuStripForGrid";
-            ContextMenuStripForGrid.Size = new Size(223, 80);
+            ContextMenuStripForGrid.Size = new Size(223, 52);
             // 
             // MenuItemDeleteBook
             // 
@@ -98,16 +107,6 @@
             DataGridViewBooks.RowsDefaultCellStyle = dataGridViewCellStyle2;
             DataGridViewBooks.Size = new Size(845, 408);
             DataGridViewBooks.TabIndex = 1;
-            // 
-            // TextBoxBooks
-            // 
-            TextBoxBooks.Location = new Point(863, 12);
-            TextBoxBooks.Multiline = true;
-            TextBoxBooks.Name = "TextBoxBooks";
-            TextBoxBooks.ReadOnly = true;
-            TextBoxBooks.ScrollBars = ScrollBars.Vertical;
-            TextBoxBooks.Size = new Size(391, 408);
-            TextBoxBooks.TabIndex = 2;
             // 
             // GroupBoxAddNewBook
             // 
@@ -204,14 +203,109 @@
             LabelTitle.TabIndex = 0;
             LabelTitle.Text = "Название:";
             // 
+            // RadioButtonIsDiscount
+            // 
+            RadioButtonIsDiscount.AutoSize = true;
+            RadioButtonIsDiscount.Location = new Point(890, 350);
+            RadioButtonIsDiscount.Name = "RadioButtonIsDiscount";
+            RadioButtonIsDiscount.Size = new Size(17, 16);
+            RadioButtonIsDiscount.TabIndex = 21;
+            RadioButtonIsDiscount.TabStop = true;
+            RadioButtonIsDiscount.UseVisualStyleBackColor = true;
+            // 
+            // LabelIsDiscountInfo
+            // 
+            LabelIsDiscountInfo.AutoSize = true;
+            LabelIsDiscountInfo.Location = new Point(884, 325);
+            LabelIsDiscountInfo.Name = "LabelIsDiscountInfo";
+            LabelIsDiscountInfo.Size = new Size(124, 20);
+            LabelIsDiscountInfo.TabIndex = 20;
+            LabelIsDiscountInfo.Text = "Наличие скидки:";
+            // 
+            // TextBoxBookGenreInfo
+            // 
+            TextBoxBookGenreInfo.Location = new Point(884, 221);
+            TextBoxBookGenreInfo.Name = "TextBoxBookGenreInfo";
+            TextBoxBookGenreInfo.Size = new Size(370, 27);
+            TextBoxBookGenreInfo.TabIndex = 19;
+            TextBoxBookGenreInfo.TextChanged += textBox1_TextChanged;
+            // 
+            // LabelBookGenreInfo
+            // 
+            LabelBookGenreInfo.AutoSize = true;
+            LabelBookGenreInfo.Location = new Point(884, 198);
+            LabelBookGenreInfo.Name = "LabelBookGenreInfo";
+            LabelBookGenreInfo.Size = new Size(95, 20);
+            LabelBookGenreInfo.TabIndex = 18;
+            LabelBookGenreInfo.Text = "Жанр книги:";
+            // 
+            // DateTimePickerDatePublishedInfo
+            // 
+            DateTimePickerDatePublishedInfo.CustomFormat = "yyyy";
+            DateTimePickerDatePublishedInfo.Format = DateTimePickerFormat.Custom;
+            DateTimePickerDatePublishedInfo.Location = new Point(887, 285);
+            DateTimePickerDatePublishedInfo.Name = "DateTimePickerDatePublishedInfo";
+            DateTimePickerDatePublishedInfo.Size = new Size(68, 27);
+            DateTimePickerDatePublishedInfo.TabIndex = 17;
+            // 
+            // LabelBookDatePublishedInfo
+            // 
+            LabelBookDatePublishedInfo.AutoSize = true;
+            LabelBookDatePublishedInfo.Location = new Point(884, 260);
+            LabelBookDatePublishedInfo.Name = "LabelBookDatePublishedInfo";
+            LabelBookDatePublishedInfo.Size = new Size(142, 20);
+            LabelBookDatePublishedInfo.TabIndex = 16;
+            LabelBookDatePublishedInfo.Text = "Год издания книги:";
+            // 
+            // TextBoxBookAuthorInfo
+            // 
+            TextBoxBookAuthorInfo.Location = new Point(884, 156);
+            TextBoxBookAuthorInfo.Name = "TextBoxBookAuthorInfo";
+            TextBoxBookAuthorInfo.Size = new Size(370, 27);
+            TextBoxBookAuthorInfo.TabIndex = 15;
+            // 
+            // LabelBookAuthorInfo
+            // 
+            LabelBookAuthorInfo.AutoSize = true;
+            LabelBookAuthorInfo.Location = new Point(884, 133);
+            LabelBookAuthorInfo.Name = "LabelBookAuthorInfo";
+            LabelBookAuthorInfo.Size = new Size(98, 20);
+            LabelBookAuthorInfo.TabIndex = 14;
+            LabelBookAuthorInfo.Text = "Автор книги:";
+            // 
+            // TextBoxBookTitleInfo
+            // 
+            TextBoxBookTitleInfo.Location = new Point(884, 91);
+            TextBoxBookTitleInfo.Name = "TextBoxBookTitleInfo";
+            TextBoxBookTitleInfo.Size = new Size(370, 27);
+            TextBoxBookTitleInfo.TabIndex = 13;
+            // 
+            // LabelBookTitleInfo
+            // 
+            LabelBookTitleInfo.AutoSize = true;
+            LabelBookTitleInfo.Location = new Point(884, 68);
+            LabelBookTitleInfo.Name = "LabelBookTitleInfo";
+            LabelBookTitleInfo.Size = new Size(124, 20);
+            LabelBookTitleInfo.TabIndex = 12;
+            LabelBookTitleInfo.Text = "Название книги:";
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1266, 492);
+            Controls.Add(RadioButtonIsDiscount);
+            Controls.Add(LabelIsDiscountInfo);
             Controls.Add(GroupBoxAddNewBook);
-            Controls.Add(TextBoxBooks);
+            Controls.Add(TextBoxBookGenreInfo);
+            Controls.Add(LabelBookGenreInfo);
             Controls.Add(DataGridViewBooks);
+            Controls.Add(DateTimePickerDatePublishedInfo);
+            Controls.Add(TextBoxBookTitleInfo);
+            Controls.Add(LabelBookDatePublishedInfo);
+            Controls.Add(LabelBookTitleInfo);
+            Controls.Add(TextBoxBookAuthorInfo);
+            Controls.Add(LabelBookAuthorInfo);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "MainForm";
             Text = "MainForm";
@@ -231,7 +325,6 @@
         private ToolStripMenuItem MenuItemDeleteBook;
         private ToolStripMenuItem MenuItemEditBook;
         private DataGridView DataGridViewBooks;
-        private TextBox TextBoxBooks;
         private GroupBox GroupBoxAddNewBook;
         private Label LabelTitle;
         private Label LabelAuthor;
@@ -242,5 +335,15 @@
         private Button ButtonAddBook;
         private TextBox TextBoxGenre;
         private Label LabelGenre;
+        private RadioButton RadioButtonIsDiscount;
+        private Label LabelIsDiscountInfo;
+        private TextBox TextBoxBookGenreInfo;
+        private Label LabelBookGenreInfo;
+        private DateTimePicker DateTimePickerDatePublishedInfo;
+        private Label LabelBookDatePublishedInfo;
+        private TextBox TextBoxBookAuthorInfo;
+        private Label LabelBookAuthorInfo;
+        private TextBox TextBoxBookTitleInfo;
+        private Label LabelBookTitleInfo;
     }
 }
