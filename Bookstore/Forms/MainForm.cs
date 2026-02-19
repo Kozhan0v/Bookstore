@@ -176,5 +176,30 @@ namespace Bookstore
 
             RefreshGridAndBookDetails();
         }
+
+        private void MenuItemEditBook_Click(object sender, EventArgs e)
+        {
+            DataGridViewSelectedRowCollection selectedRows = DataGridViewBooks.SelectedRows;
+
+            foreach (DataGridViewRow row in selectedRows)
+            {
+                int rowIndex = row.Index;
+
+                if (rowIndex < 0)
+                {
+                    continue;
+                }
+
+                EditBookForm editBookForm = new EditBookForm();
+                editBookForm.EditedBook = _books[rowIndex];
+                editBookForm.UpdateBookEvent += editBookForm_UpdateBookEvent;
+                editBookForm.Show();
+            }
+        }
+
+        private void editBookForm_UpdateBookEvent(Book updatedBook)
+        {
+            RefreshGridAndBookDetails();
+        }
     }
 }

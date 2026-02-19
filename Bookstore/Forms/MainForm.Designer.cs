@@ -75,6 +75,7 @@
             MenuItemEditBook.Name = "MenuItemEditBook";
             MenuItemEditBook.Size = new Size(222, 24);
             MenuItemEditBook.Text = "Редактировать книгу";
+            MenuItemEditBook.Click += MenuItemEditBook_Click;
             // 
             // DataGridViewBooks
             // 
