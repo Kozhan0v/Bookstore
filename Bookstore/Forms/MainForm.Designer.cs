@@ -63,7 +63,6 @@
             // 
             // backgroundWorker1
             // 
-            backgroundWorker1.DoWork += backgroundWorker1_DoWork;
             // 
             // ContextMenuStripForGrid
             // 
@@ -160,7 +159,6 @@
             DateTimePickerDatePublished.Name = "DateTimePickerDatePublished";
             DateTimePickerDatePublished.Size = new Size(66, 27);
             DateTimePickerDatePublished.TabIndex = 5;
-            DateTimePickerDatePublished.ValueChanged += DateTimePickerDatePublished_ValueChanged;
             // 
             // LabelDatePublished
             // 
@@ -228,7 +226,6 @@
             TextBoxBookGenreInfo.Name = "TextBoxBookGenreInfo";
             TextBoxBookGenreInfo.Size = new Size(370, 27);
             TextBoxBookGenreInfo.TabIndex = 19;
-            TextBoxBookGenreInfo.TextChanged += textBox1_TextChanged;
             // 
             // LabelBookGenreInfo
             // 

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\kozha\\source\\repos\\Bookstore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|c:\\users\\kozha\\source\\repos\\bookstore\\bookstore\\sources\\books.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|solutionrelative:bookstore\\sources\\books.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|c:\\users\\kozha\\source\\repos\\bookstore\\bookstore\\sources\\genres.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|solutionrelative:bookstore\\sources\\genres.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|c:\\users\\kozha\\source\\repos\\bookstore\\bookstore\\sources\\authors.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|solutionrelative:bookstore\\sources\\authors.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|c:\\users\\kozha\\source\\repos\\bookstore\\bookstore\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|solutionrelative:bookstore\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|solutionrelative:bookstore\\forms\\editbookform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|c:\\users\\kozha\\source\\repos\\bookstore\\bookstore\\sources\\books.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|solutionrelative:bookstore\\sources\\books.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|c:\\users\\kozha\\source\\repos\\bookstore\\bookstore\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|solutionrelative:bookstore\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|c:\\users\\kozha\\source\\repos\\bookstore\\bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|solutionrelative:bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|c:\\users\\kozha\\source\\repos\\bookstore\\bookstore\\sources\\authors.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|solutionrelative:bookstore\\sources\\authors.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|c:\\users\\kozha\\source\\repos\\bookstore\\bookstore\\sources\\genres.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CD28619C-6CA1-42D4-B9DC-82CB772A8BCC}|Bookstore\\Bookstore.csproj|solutionrelative:bookstore\\sources\\genres.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "EditBookForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Forms\\EditBookForm.Designer.cs",
               "RelativeDocumentMoniker": "Bookstore\\Forms\\EditBookForm.Designer.cs",
@@ -78,12 +78,11 @@
               "RelativeToolTip": "Bookstore\\Forms\\EditBookForm.Designer.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAApwDkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T20:18:50.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T20:18:50.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Forms\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "Bookstore\\Forms\\MainForm.Designer.cs",
@@ -91,12 +90,11 @@
               "RelativeToolTip": "Bookstore\\Forms\\MainForm.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAApwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T17:35:37.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T17:35:37.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Program.cs",
               "RelativeDocumentMoniker": "Bookstore\\Program.cs",
@@ -108,43 +106,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "Genres.txt",
               "DocumentMoniker": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Sources\\Genres.txt",
               "RelativeDocumentMoniker": "Bookstore\\Sources\\Genres.txt",
               "ToolTip": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Sources\\Genres.txt",
               "RelativeToolTip": "Bookstore\\Sources\\Genres.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-02-19T07:29:48.15Z"
+              "WhenOpened": "2026-02-19T07:29:48.15Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Books.txt",
               "DocumentMoniker": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Sources\\Books.txt",
               "RelativeDocumentMoniker": "Bookstore\\Sources\\Books.txt",
               "ToolTip": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Sources\\Books.txt",
               "RelativeToolTip": "Bookstore\\Sources\\Books.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-02-19T07:29:37.529Z"
+              "WhenOpened": "2026-02-19T07:29:37.529Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Authors.txt",
               "DocumentMoniker": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Sources\\Authors.txt",
               "RelativeDocumentMoniker": "Bookstore\\Sources\\Authors.txt",
               "ToolTip": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Sources\\Authors.txt",
               "RelativeToolTip": "Bookstore\\Sources\\Authors.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-02-19T07:29:33.114Z"
+              "WhenOpened": "2026-02-19T07:29:33.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Book.cs",
               "RelativeDocumentMoniker": "Bookstore\\Book.cs",
@@ -156,19 +157,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "EditBookForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Forms\\EditBookForm.cs",
               "RelativeDocumentMoniker": "Bookstore\\Forms\\EditBookForm.cs",
               "ToolTip": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Forms\\EditBookForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Bookstore\\Forms\\EditBookForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T23:08:57.359Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2026-02-18T23:08:57.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "EditBookForm.cs",
               "DocumentMoniker": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Forms\\EditBookForm.cs",
               "RelativeDocumentMoniker": "Bookstore\\Forms\\EditBookForm.cs",
@@ -180,25 +180,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "Bookstore\\Forms\\MainForm.cs",
-              "ToolTip": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Forms\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Bookstore\\Forms\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Forms\\MainForm.cs [Design]",
+              "RelativeToolTip": "Bookstore\\Forms\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T19:23:42.441Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "Bookstore\\Forms\\MainForm.cs",
               "ToolTip": "C:\\Users\\kozha\\source\\repos\\Bookstore\\Bookstore\\Forms\\MainForm.cs",
               "RelativeToolTip": "Bookstore\\Forms\\MainForm.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAIwNUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAIwJsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T20:09:55.51Z",
               "EditorCaption": ""

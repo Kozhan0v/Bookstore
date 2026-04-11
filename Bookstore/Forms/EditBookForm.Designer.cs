@@ -53,7 +53,6 @@
             LabelTitle.Size = new Size(124, 20);
             LabelTitle.TabIndex = 0;
             LabelTitle.Text = "Название книги:";
-            LabelTitle.Click += label1_Click;
             // 
             // TextBoxTitle
             // 
@@ -159,7 +158,6 @@
             RadioButtonIsDiscount.TabIndex = 11;
             RadioButtonIsDiscount.TabStop = true;
             RadioButtonIsDiscount.UseVisualStyleBackColor = true;
-            RadioButtonIsDiscount.CheckedChanged += RadioButtonIsDiscount_CheckedChanged;
             // 
             // EditBookForm
             // 

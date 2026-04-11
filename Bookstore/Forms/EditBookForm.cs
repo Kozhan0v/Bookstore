@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace Bookstore
+﻿namespace Bookstore
 {
     public partial class EditBookForm : Form
     {
@@ -23,11 +13,6 @@ namespace Bookstore
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void EditBookForm_Load(object sender, EventArgs e)
         {
             TextBoxTitle.Text = EditedBook.Title;
@@ -35,11 +20,6 @@ namespace Bookstore
             TextBoxGenre.Text = EditedBook.Genre;
             DateTimePickerDatePublished.Value = EditedBook.DatePublished;
             RadioButtonIsDiscount.Checked = EditedBook.IsDiscount;
-        }
-
-        private void RadioButtonIsDiscount_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void ButtonCancel_Click(object sender, EventArgs e)
